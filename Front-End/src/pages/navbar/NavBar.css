@@ -1,22 +1,45 @@
-
+.NavBarRes {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  color: #000000;
+}
+.NavBarRes:hover {
+  color: #f1271186;
+}
+#menu{
+  color: #000000;
+}
+#menu:hover{
+  color:  #f1271186;;
+}
+.Ancoras{
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  color: #000000;
+}
+.Ancoras:hover {
+  color: #f1271186;
+}
 .hidden-spacer {
-    height: 56px;
+  height: 56px;
 }
 .flip-card {
-    background-color: transparent;
-    width: 100%;
-    height: 25rem;
-    border: 1px solid #f1f1f1;
-    perspective: 1000px; 
-  }
-  .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-  }
+  background-color: transparent;
+  width: 100%;
+  height: 25rem;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
 
 /*Caroussel*/
 .carousel {
@@ -45,19 +68,19 @@
   font-weight: 400;
 }
 .marketing .col-lg-4 p {
-  margin-right: .75rem;
-  margin-left: .75rem;
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
 }
 
 .featurette-divider {
-  margin: 5rem 0; 
+  margin: 5rem 0;
 }
 
 .featurette-heading {
   font-weight: 300;
   line-height: 1;
   /* rtl:remove */
-  letter-spacing: -.05rem;
+  letter-spacing: -0.05rem;
 }
 
 @media (min-width: 40em) {
@@ -78,7 +101,6 @@
     margin-top: 7rem;
   }
 }
-
 
 /*cards image Home começo*/
 
@@ -105,7 +127,7 @@
 .card-flip:hover .card-front {
   transform: rotateY(-180deg);
 }
-  
+
 .card-flip:hover .card-back {
   transform: rotateY(0deg);
 }
@@ -113,14 +135,11 @@
 /*cards image Home final*/
 /* inicio cards do promoções*/
 
-
 /*Fim cards do promoções*/
 
+/*Começo Rodape*/
+footer p {
+  text-align: center;
+}
 
-  /*Começo Rodape*/
-  footer p{
-    text-align: center;
-
-  }
-
- /*Fim Rodape*/
+/*Fim Rodape*/

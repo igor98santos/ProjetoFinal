@@ -10,11 +10,11 @@ class NavBar extends Component{
             <nav className="navbar fixed-top navbar-expand-lg  p-md-3">
             <div className="container">
               <Link to="/" className="navbar-brand"  >
-              <a>Agência/Pectros</a>
+              <a className="NavBarRes">Agência/Pectros</a>
               </Link>
               <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"><img src={icone} alt="Icone"/>Icone</span>
+                <span  className="navbar-toggler" id="menu">menu</span>
               </button>
         
               <div className="collapse navbar-collapse" id="navbarNav">
@@ -22,25 +22,25 @@ class NavBar extends Component{
                 <ul className="navbar-nav">
                   <li className="nav-item">
                 <Link to="/" className="nav-link text-white">
-                      <a>Home</a>
+                      <a className="Ancoras">Home</a>
                 </Link>
                    
                   </li>
                   <li className="nav-item">
                   <Link to="/Promocoes" className="nav-link text-white">
-                      <a   >Promoções</a>
+                      <a   className="Ancoras">Promoções</a>
                   </Link>
                     
                   </li>
                   <li className="nav-item">
                   <Link to="/Destinos" className="nav-link text-white">
-                          <a>Destino</a>
+                          <a className="Ancoras">Destino</a>
                   </Link>
                     
                   </li>
                   <li className="nav-item">
                  <Link to="/Contatos" className="nav-link text-white">
-                      <a>Contatos</a>
+                      <a className="Ancoras">Contatos</a>
                  </Link>
                    
                   </li>
