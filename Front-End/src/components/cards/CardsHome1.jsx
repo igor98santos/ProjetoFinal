@@ -13,7 +13,7 @@ class CardsHome extends Component {
         <br />
         <div className="container-fluid">
           <div className="row">
-            <div className="col-3 ">
+            <div className=" col-xs-1 col-sm-6 col-md-3 ">
               <div className="card" id="CardsHome1">
                 <img
                   className="card-img-top"
@@ -33,7 +33,7 @@ class CardsHome extends Component {
               </div>
             </div>
 
-            <div className="col-3">
+            <div className="col-xs-1 col-sm-6 col-md-3 ">
               <div className="card" id="CardsHome1">
                 <img
                   className="card-img-top"
@@ -52,7 +52,7 @@ class CardsHome extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-3 ">
+            <div className="col-xs-1 col-sm-6 col-md-3 ">
               <div className="card" id="CardsHome1">
                 <img
                   className="card-img-top"
@@ -71,7 +71,7 @@ class CardsHome extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-3 ">
+            <div className="col-xs-1 col-sm-6 col-md-3 ">
               <div className="card" id="CardsHome1">
                 <img
                   className="card-img-top"
