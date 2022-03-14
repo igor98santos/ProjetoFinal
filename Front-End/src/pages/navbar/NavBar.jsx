@@ -1,7 +1,6 @@
 import React from "react";
 import { Component } from "react/cjs/react.development";
 import './NavBar.css';
-import icone from '../../assets/imagens/Icones/icons8-document-48.png'
 import { Link } from "react-router-dom";
 class NavBar extends Component{
     render(){
@@ -40,7 +39,7 @@ class NavBar extends Component{
                   </li>
                   <li className="nav-item">
                  <Link to="/Contatos" className="nav-link text-white">
-                      <a className="Ancoras">Contatos</a>
+                      <a className="Ancoras">Cadastrar</a>
                  </Link>
                    
                   </li>

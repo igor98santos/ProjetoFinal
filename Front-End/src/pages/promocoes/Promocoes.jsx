@@ -17,9 +17,12 @@ class Promocoes extends Component {
     return (
       <div>
         <NavBar />
+       <br />
+       <br />
+       <br />
         <div className="container-fluid marketing ">
-          <div className="row featurette">
-            <div className="col-md-12">
+          <div className="row featurette ">
+            <div className="col-xs-6 col-sm-12 col-md-12">
               <h2 className="featurette-heading">
                 Viaje dos seus sonhos{" "}
                 <span className="text-muted">Somente Aqui</span>
@@ -29,7 +32,9 @@ class Promocoes extends Component {
                 saepe sint quo in! Molestiae quod quo nam{" "}
               </p>
             </div>
-            <div className="col-md-3 ">
+            <br />
+            <br />
+            <div className=" col-12 col-sm-6 col-md-3">
               <div className="card" id="Promocoes">
                 <img className="card-img-top" src={img1} alt="Card image cap" />
                 <div className="card-body">
@@ -56,7 +61,7 @@ class Promocoes extends Component {
               </div>
             </div>
 
-            <div className="col-md-3 ">
+            <div className="col-12 col-sm-6 col-md-3">
               <div className="card" id="Promocoes">
                 <img className="card-img-top" src={img2} alt="Card image cap" />
                 <div className="card-body">
@@ -82,7 +87,7 @@ class Promocoes extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-md-3 ">
+            <div className="col-12 col-sm-6 col-md-3">
               <div className="card" id="Promocoes">
                 <img className="card-img-top" src={img3} alt="Card image cap" />
                 <div className="card-body">
@@ -108,7 +113,7 @@ class Promocoes extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-12 col-sm-6 col-md-3">
               <div className="card" id="Promocoes">
                 <img className="card-img-top" src={img4} alt="Card image cap" />
                 <div className="card-body">

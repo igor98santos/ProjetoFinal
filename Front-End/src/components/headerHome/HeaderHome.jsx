@@ -8,7 +8,7 @@ import imageHome3 from "../../assets/imagens/Home/É essa que vai para home.jpg"
 class HeaderHome extends Component {
   render() {
     return (
-      <main col-xs col-sm col-md col-lg col-xl col-xxl>
+      <main  >
         <div
           id="carouselExampleCaptions"
           class="carousel slide"

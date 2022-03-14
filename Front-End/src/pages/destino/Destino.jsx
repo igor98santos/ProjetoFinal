@@ -9,9 +9,51 @@ class Destino extends Component {
       <>
         <NavBar />
         <div class="container-">
-          <h1>Em criação aguarde a proxima entrega</h1>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">
+              Digite a data de ida
+            </span>
+            <input
+              type="date"
+              class="form-control"
+              aria-describedby="basic-addon1"
+            />
+          </div>
+        
+          <div class="input-group mb-3">
+            <input
+              type="text"
+              class="form-control"
+              aria-describedby="basic-addon2"
+            />
+            <span class="input-group-text" id="basic-addon2">
+              Email
+            </span>
+          </div>
+
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon3">
+              Senha
+            </span>
+            <input
+              type="password"
+              class="form-control"
+              id="basic-url"
+              aria-describedby="basic-addon3"
+            />
+          </div>
         </div>
         <div>
+          <hr />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
           <Footer />
         </div>
       </>
