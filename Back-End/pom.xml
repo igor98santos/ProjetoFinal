@@ -10,7 +10,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.agencia</groupId>
-	<artifactId>dsmovie</artifactId>
+	<artifactId>Pectros</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>pectros</name>
 	<description>Projeto criado para o fim de curso na recode</description>
